@@ -14,7 +14,7 @@ import lombok.Data;
 public class Employer {
 	@Id
 	@GeneratedValue
-	@Column(name="employee_id")
+	@Column(name="employer_id")
 	private int id;
 	
 	@Column(name="company_name")
